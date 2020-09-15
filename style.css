@@ -18,8 +18,8 @@
     font-family: "cursive", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--dark);
     line-height: 1.5;
-    font-size: 16px;
-  }
+    font-size: 16px; 
+   } 
   
   h1,
   h2,
@@ -92,21 +92,21 @@
     box-shadow: 2px 2px var(--dark);
   }
   
-  .hero {
-    padding: 3% 4%;
+  .dashboard {
+    padding: 1% 2%;
     background-color: var(--dark);
     color: var(--primary);
   }
   
-  .hero p {
-    max-width: 75%;
+  .dashboard p {
+    max-width: 50%;
   }
   
   .app-title {
     font-size: 3rem;
     background-color: var(--primary);
     color: var(--dark);
-    padding: 0 10px;
+    padding: 0 5px;
     display: inline-block;
     border-radius: var(--border-radius);
     box-shadow: 6px 5px var(--light-dark);
@@ -127,42 +127,21 @@
   }
   
   .list-item:hover {
-    background-color: var(--dark);
+    background-color: var(--dark); 
   }
   
 
   
   
   
-  /* CARDS */
+  CARDS
   .card {
     margin: 0 0 20px 0;
     border: 3px solid var(--dark);
     border-radius: var(--border-radius);
   }
   
-  .card-header {
-    color: var(--primary);
-    background-color: var(--dark);
-    padding: 2.5%;
-    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
-  }
-  
-  .card-body {
-    padding: 2.5%;
-  }
-  
   /* FORM */
-  .form-label,
-  .form-input,
-  .form-textarea {
-    display: block;
-  }
-  
-  .form-label {
-    font-size: 1.1rem;
-    margin: 0 0 0 5px;
-  }
   
   .form-input {
     width: 100%;
@@ -171,7 +150,7 @@
     font-size: 1.2rem;
     border: 2px solid var(--light-dark);
     border-radius: var(--border-radius);
-  }
+  } */
   
   /* HEIGHT / WIDTH UTILS */
   .min-100-vh {
@@ -182,9 +161,6 @@
     min-width: 100vw;
   }
   
-  /* FONT UTILS */
-  .text-uppercase {
-    text-transform: uppercase;
-  }
+ 
   
   
