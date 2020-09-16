@@ -18,35 +18,32 @@
     font-family: "cursive", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--dark);
     line-height: 1.5;
-    font-size: 16px; 
+    font-size: 13px; 
    } 
   
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: 700;
+ h1{
+    font-weight: 300;
     margin: 0;
     color: var(--dark);
     line-height: 1.25;
   }
-  
+  h2 {
+      background-color: rgb(245, 248, 45);
+  }
   main {
     margin: 20px auto;
     width: 94%;
   }
   
-  p {
-    font-size: 1.2rem;
-  }
+   p {
+    font-size: 3rem;
+  } 
   
-   .btn {
+    .btn {
     font-size: 1.3rem;
     text-decoration:none;
     padding: 6px 5px;
-    width: 100%;
+    width: 25%;
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
@@ -68,30 +65,7 @@
   .btn-inline {
     display: inline;
   }
-  
-  .btn-back {
-    border-radius: var(--border-radius);
-    color: var(--primary);
-    border: none;
-    outline: none;
-    background-color: var(--light-dark);
-    box-shadow: 3px 3px var(--secondary);
-    transform: translate(-1px, -1px);
-    display: inline-block;
-    width: auto;
-    margin-top: 20px;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  
-   .btn-back:hover {
-    color: var(--primary);
-    background-color: var(--tertiary);
-    transform: translate(0, 0);
-    box-shadow: 2px 2px var(--dark);
-  }
-  
+   
   .dashboard {
     padding: 1% 2%;
     background-color: var(--dark);
@@ -103,10 +77,10 @@
   }
   
   .app-title {
-    font-size: 3rem;
+    font-size: 8em;
     background-color: var(--primary);
     color: var(--dark);
-    padding: 0 5px;
+    padding: 0 2px;
     display: inline-block;
     border-radius: var(--border-radius);
     box-shadow: 6px 5px var(--light-dark);
@@ -141,16 +115,16 @@
     border-radius: var(--border-radius);
   }
   
-  /* FORM */
   
-  .form-input {
-    width: 100%;
-    padding: 3%;
-    margin: 5px 0;
+  
+   .form-input {
+    width: 25%;
+    margin: 0px 0;
     font-size: 1.2rem;
     border: 2px solid var(--light-dark);
-    border-radius: var(--border-radius);
-  } */
+    border-radius: var(--border-radius); 
+    position: relative;
+  
   
   /* HEIGHT / WIDTH UTILS */
   .min-100-vh {
@@ -159,8 +133,7 @@
   
   .min-100-vw {
     min-width: 100vw;
-  }
-  
+  }  
  
   
   
